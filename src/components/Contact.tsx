@@ -97,19 +97,19 @@ const Contact = () => {
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <Button size="lg" className="gap-2 font-semibold shadow-lg hover:shadow-xl transition-all" asChild>
+          <Button variant="outline" size="lg" className="gap-2 font-semibold hover:border-primary hover:text-primary hover:bg-primary/5 focus:bg-primary/5 focus:text-primary" asChild>
             <a href="mailto:vinodsharmaiitkgp923@gmail.com">
               <Mail className="h-5 w-5" />
               Send Email
             </a>
           </Button>
-          <Button variant="outline" size="lg" className="gap-2 font-semibold hover:border-primary hover:text-primary" asChild>
+          <Button variant="outline" size="lg" className="gap-2 font-semibold hover:border-primary hover:text-primary hover:bg-primary/5 focus:bg-primary/5 focus:text-primary" asChild>
             <a href="https://linkedin.com/in/vinodiitkgp2019" target="_blank" rel="noopener noreferrer">
               <Linkedin className="h-5 w-5" />
               LinkedIn
             </a>
           </Button>
-          <Button variant="outline" size="lg" className="gap-2 font-semibold hover:border-primary hover:text-primary" asChild>
+          <Button variant="outline" size="lg" className="gap-2 font-semibold hover:border-primary hover:text-primary hover:bg-primary/5 focus:bg-primary/5 focus:text-primary" asChild>
             <a href="https://github.com/Vinodbagra" target="_blank" rel="noopener noreferrer">
               <Github className="h-5 w-5" />
               GitHub
