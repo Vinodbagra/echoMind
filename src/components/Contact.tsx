@@ -57,10 +57,10 @@ const Contact = () => {
               <div className="text-center">
                 <p className="text-sm font-semibold text-muted-foreground mb-1">Email</p>
                 <a
-                  href="mailto:vinodsharmaiitkgp923@gmail.com"
+                  href="mailto:vinodsharmaiitkgp93@gmail.com"
                   className="text-foreground hover:text-primary transition-colors text-sm font-medium break-all"
                 >
-                  vinodsharmaiitkgp923@gmail.com
+                  vinodsharmaiitkgp93@gmail.com
                 </a>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Contact = () => {
 
         <div className="flex flex-wrap items-center justify-center gap-4">
           <Button variant="outline" size="lg" className="gap-2 font-semibold hover:border-primary hover:text-primary hover:bg-primary/5 focus:bg-primary/5 focus:text-primary" asChild>
-            <a href="mailto:vinodsharmaiitkgp923@gmail.com">
+            <a href="mailto:vinodsharmaiitkgp93@gmail.com">
               <Mail className="h-5 w-5" />
               Send Email
             </a>
